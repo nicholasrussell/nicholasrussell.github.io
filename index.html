@@ -9,25 +9,56 @@
         <meta name="description" content="Nick Russell - Software Engineer." />
         <meta name="author" content="Nick Russell" />
         <title>Nick Russell | Software Engineer</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-        <script src="https://kit.fontawesome.com/ed9417a5f3.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/bulma-0.9.0.min.css">
+        <link rel="stylesheet" href="css/fontawesome-5.14.0.min.css">
+        <script src="js/fontawesome-5.14.0.min.css"></script>
         <style>
          * {
              overflow: hidden !important;
          }
          html,
          body {
-	           font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
          }
         </style>
     </head>
     <body>
-        
 <section class="hero is-fullheight is-dark is-bold">
-    <div class="hero-head"></div>
-
-    <div class="hero-body">
+    <div class="hero-head">
+        <div class="tabs is-pulled-right">
+            <ul>
+                <li>
+                    <a href="https://github.com/nicholasrussell" target="_blank">
+                        <span class="icon is-medium" aria-hidden="true">
+                            <i class="fab fa-github"></i>
+                        </span>
+                        GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/nickfrussell/" target="_blank">
+                        <span class="icon is-medium" aria-hidden="true">
+                            <i class="fab fa-linkedin"></i>
+                        </span>
+                        LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="hero-body" class="hero-body">
         <div class="container has-text-centered">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" style="max-height: 30vh; margin: 0 auto; display: block;">
+                <defs>
+                    <linearGradient id="gradient" x1="0" y1="0" x2="100%" y2="100%" gradientUnits="userSpaceOnUse">
+                        <stop offset="0%" stop-color="#dddddd" />
+                        <stop offset="100%" stop-color="#333333" />
+                    </linearGradient>
+                </defs>
+                <text fill="url(#gradient)" opacity="0.9">
+                    <tspan font-size="60" x="20%" y="95%">λ</tspan>
+                </text>
+            </svg>
             <h1 class="title">
                 Nick Russell
             </h1>
@@ -39,33 +70,7 @@
             </h2>
         </div>
     </div>
-
-    <div class="hero-foot">
-        <div class="tabs is-centered">
-            <ul>
-                <li>
-                    <a href="https://github.com/nicholasrussell" target="_blank">
-                        <span class="icon is-medium" aria-hidden="true">
-                            <i class="fab fa-2x fa-github"></i>
-                        </span>
-                        GitHub
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/nickfrussell/" target="_blank">
-                        <span class="icon is-medium" aria-hidden="true">
-                            <i class="fab fa-2x fa-linkedin"></i>
-                        </span>
-                        LinkedIn
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <div class="hero-foot"></div>
 </section>
-
-
-        
-        
     </body>
 </html>
