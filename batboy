@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta content="text/html" http-equiv="Content-Type" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="IE=edge" content="X-UA-Compatible" />
+        <meta name="description" content="An MLB Stats API Library" />
+        <meta name="author" content="Nick Russell" />
+        <title>batboy</title>
+        <link rel="stylesheet" href="css/bulma-0.9.0.min.css">
+        <link rel="stylesheet" href="css/fontawesome-5.14.0.min.css">
+        <script src="js/fontawesome-5.14.0.min.css"></script>
+    </head>
+    <body>
+      <section class="hero is-dark is-bold is-fullheight">
+        <div class="hero-head">
+          <nav class="navbar">
+            <div class="container">
+              <div class="navbar-brand">
+              </div>
+              <div id="navbarMenuHeroA" class="navbar-menu">
+                <div class="navbar-end">
+                  <span class="navbar-item">
+                    <a class="button is-dark is-inverted" href="https://github.com/nicholasrussell/batboy">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>GitHub</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>      
+
+        <div class="hero-body">
+          <div class="container">
+            <p class="title">
+              batboy
+            </p>
+            <h2 class="subtitle">
+              An MLB Stats API Library
+            </h2>
+          </div>
+        </div>
+      </section>
+    </body>
+</html>
